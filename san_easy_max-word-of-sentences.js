@@ -12,7 +12,7 @@ const sentences = [
 ];
 
 function result(sentences) {
-  return Math.max(...sentences.map(sentence => sentence.split(' ').length));
+
 }
 
 console.log(result(sentences));
